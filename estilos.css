@@ -1,0 +1,13 @@
+img{
+    height: 80px;
+    position: relative;
+    left: 10%;
+}
+
+#formulario{
+    background-color: aqua
+}
+
+input:focus{
+    background-color: burlywood;
+}
