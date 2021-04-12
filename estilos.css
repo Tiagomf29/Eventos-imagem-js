@@ -11,3 +11,30 @@ img{
 input:focus{
     background-color: burlywood;
 }
+
+td{
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    color: red;
+}
+
+#opcoes{
+    width: 200px;
+}
+
+
+
+select{
+    background-color:yellow;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+}
+
+input{
+    width: 150px;
+    height: 50px;
+}
+
+

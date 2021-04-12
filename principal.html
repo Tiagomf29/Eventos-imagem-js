@@ -9,31 +9,72 @@
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
-   <img src=""   alt="poltrona" />
+   <table>
+       <tr>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>        
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+          <td><img src=""   alt="poltrona" /></td>
+       </tr>
+       <tr>
+           <td>Cadeira 1</td>
+           <td>Cadeira 2</td>
+           <td>Cadeira 3</td>
+           <td>Cadeira 4</td>
+           <td>Cadeira 5</td>
+           <td>Cadeira 6</td>
+           <td>Cadeira 7</td>
+           <td>Cadeira 8</td>
+           <td>Cadeira 9</td>
+           <td>Cadeira 10</td>
+       </tr>
+   
+   </table> 
 
    <br /><br /><br />
 
-   <form id="formulario">
-
-    <label for="ocuparCadeira">Cadeira de número</label><br /><br />
-    <input name="text1" type="text" /><br /><br />
-    <input id="btn1" type="button" value="Ocupar cadeira" /><br /><br />
+   <form id="formulario">    
+    <fieldset >
+        <legend>Cadeira de número</legend>
+        <select id="opcoes1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>        
+        </select><br /><br />
     
+        <input id="btn1" type="button" value="Ocupar cadeira" /><br /><br />
+    </fieldset>
     <hr />
   
-    <label for="ocuparCadeira">Cadeira de número</label><br /><br />
-    <input name="text2" type="text" /><br /><br />
-    <input id="btn2" type="button" value="Desocupar cadeira" /><br /><br />
-
+    <fieldset >
+        <legend>Cadeira de número</legend>
+        <select id="opcoes2">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>        
+        </select><br /><br />
+        <input id="btn2" type="button" value="Desocupar cadeira" /><br /><br />
+    </fieldset >
    </form>
 
    <hr />

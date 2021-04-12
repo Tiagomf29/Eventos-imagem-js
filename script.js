@@ -8,19 +8,24 @@ window.onload = function(){
 
     }
 
-
     let botao1 = document.getElementById("btn1");
     let botao2 = document.getElementById("btn2");
-    let form = document.getElementById("formulario");
+    let opc1 = document.getElementById("opcoes1");
+    let opc2 = document.getElementById("opcoes2");
 
     botao1.addEventListener('click', e =>{
         
-        mudaImagem(true,form.text1.value);
+        if ( imagem[opc1.selectedIndex].src.endsWith('pol1.png')){
+            alert("Cadeira já sem encontra ocupada!");
+        }        
+        mudaImagem(true,opc1[opc1.selectedIndex].value);
     });
 
     botao2.addEventListener('click', e =>{
-
-        mudaImagem(false,+form.text2.value);
+        if (! imagem[opc1.selectedIndex].src.endsWith('pol1.png')){
+            alert("Cadeira já sem encontra disponível!");
+        } 
+        mudaImagem(false,+opc2[opc2.selectedIndex].value);
 
     });
 
